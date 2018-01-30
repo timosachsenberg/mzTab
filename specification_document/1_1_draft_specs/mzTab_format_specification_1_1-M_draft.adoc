@@ -1599,7 +1599,7 @@ SML 1 … My value some other value
 
 The small molecule feature section is table-based, representing individual MS regions (generally considered to be the elution profile for all isotopomers formed from a single charge state of a molecule), that have been measured/quantified. However, for approaches that quantify individual isotopomers e.g. stable isotope labelling/flux studies, then each SMF row SHOULD represent a single isotopomers.
 
-Different adducts or derivatives and different charge states of individual molecules should be reported as separate SMF rows.
+Different adducts or derivatives and different charge states of individual molecules MUST be reported as separate SMF rows.
 
 The small molecule feature section MUST always come after the Small Molecule Table. All table columns MUST be Tab separated. There MUST NOT be any empty cells. Missing values MUST be reported using “null”.
 
